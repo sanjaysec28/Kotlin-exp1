@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sun Glow / Sun Disk -->
+    <path
+        android:pathData="M 64,44 m -15,0 a 15,15 0 1,0 30,0 a 15,15 0 1,0 -30,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="52"
+                android:startY="32"
+                android:endX="76"
+                android:endY="56"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDE047" />
+                <item android:offset="0.6" android:color="#F59E0B" />
+                <item android:offset="1.0" android:color="#D97706" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Cloud Soft Drop Shadow -->
+    <path
+        android:pathData="M 34,70 C 30,70 27,67 27,63 C 27,59 30,56 34,56 C 35,51 39,47 45,47 C 49,47 53,49 55,53 C 58,51 62,51 65,53 C 69,55 72,59 72,63 C 75,64 78,66 78,70 C 78,74 74,77 70,77 L 34,77 C 34,75 34,72 34,70 Z"
+        android:fillColor="#220F2942" />
+
+    <!-- Miniature Cloud Base -->
+    <path
+        android:pathData="M 33,68 C 29,68 26,65 26,61 C 26,57 29,54 33,54 C 34,49 38,45 44,45 C 48,45 52,47 54,51 C 57,49 61,49 64,51 C 68,53 71,57 71,61 C 74,62 77,64 77,68 C 77,72 73,75 69,75 L 34,75 C 31,75 33,68 33,68 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="50"
+                android:startY="45"
+                android:endX="50"
+                android:endY="75"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="0.7" android:color="#F1F5F9" />
+                <item android:offset="1.0" android:color="#CBD5E1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Cloud Highlight Bulb -->
+    <path
+        android:pathData="M 44,46 C 48.5,46 52,48 53.5,51.5 C 51.5,49.5 48,48 44,48 C 39,48 35.5,51.5 34.5,55.5 C 34,55 33.5,54.5 33,54.5 C 29.5,54.5 27,57 27,60.5 C 27,57.5 29.5,55 33,55 C 34,50 38.5,46 44,46 Z"
+        android:fillColor="#CCFFFFFF" />
+
+</vector>

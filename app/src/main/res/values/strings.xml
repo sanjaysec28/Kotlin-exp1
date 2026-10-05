@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MiniWeather</string>
+    <string name="search_placeholder">Search location</string>
+    <string name="unit_celsius">°C</string>
+    <string name="unit_fahrenheit">°F</string>
+    <string name="retry">Retry</string>
+    <string name="weather_error">Unable to fetch live weather data</string>
+    <string name="gemini_diorama">3D Diorama</string>
+    <string name="generate_ai_diorama">Generate AI Diorama</string>
+    <string name="popular_cities">Featured Miniatures</string>
+</resources>

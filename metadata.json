@@ -1,0 +1,7 @@
+{
+  "name": "MiniWeather",
+  "description": "Dynamic 3D miniature diorama weather visualization for cities worldwide with live atmospheric effects and Gemini AI generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
